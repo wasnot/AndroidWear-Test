@@ -1,11 +1,13 @@
 package net.wasnot.wear.test;
 
 import android.app.Activity;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.wearable.view.WatchViewStub;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class WearActivity extends Activity implements View.OnClickListener {
 
