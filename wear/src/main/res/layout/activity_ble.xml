@@ -1,0 +1,12 @@
+<android.support.wearable.view.WatchViewStub
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/watch_view_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:deviceIds="wear">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="test"
+              android:id="@+id/bleText"/>
+</android.support.wearable.view.WatchViewStub>
